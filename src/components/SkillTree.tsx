@@ -138,6 +138,7 @@ const StyledSkillTree = styled.div<CollapsibleContainerProps>`
   border: ${({ theme }) => theme.border};
   border-top: ${({ isCollapsible }) => (isCollapsible ? '0' : 'auto')};
   border-radius: ${({ theme }) => theme.borderRadius};
+  padding: ${({ theme }) => theme.mainPadding};
   display: flex;
   flex-direction: column;
   justify-content: center;

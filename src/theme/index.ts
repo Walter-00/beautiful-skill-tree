@@ -6,6 +6,8 @@ const defaultTheme = {
   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif`,
   primaryFontColor: 'white',
   treeBackgroundColor: '#282c34',
+  headingBackgroundColor: '#282c34',
+  mainPadding: '0px',
   disabledTreeOpacity: 0.8,
   headingFont: `-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif`,
   headingFontColor: 'white',
