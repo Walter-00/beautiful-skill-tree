@@ -67,16 +67,17 @@ function Tooltip(props: Props) {
 export default Tooltip;
 
 const StyledTippy = styled(Tippy)`
-  background-color: ${({ theme }) => theme.treeBackgroundColor};
+  background: ${({ theme }) => theme.tooltipBackgroundColor};
   border: ${({ theme }) => theme.border};
   border-image-source: ${({ theme }) => theme.nodeHoverBorderColor};
   border-image-slice: 1;
   border-radius: ${({ theme }) => theme.borderRadius};
+  font-family: ${({ theme }) => theme.primaryFont};
   padding: 0 8px;
   text-align: left;
   width: 320px;
 
   .tippy-backdrop {
-    background-color: ${({ theme }) => theme.treeBackgroundColor};
+    background: ${({ theme }) => theme.tooltipBackgroundColor};
   }
 `;
